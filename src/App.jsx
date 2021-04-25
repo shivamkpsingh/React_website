@@ -6,6 +6,7 @@ import Home from './Home'
 import About from './About'
 import Service from './Service'
 import Contact from './Contact'
+import Footer from './Footer'
 import { Redirect, Route, Switch } from 'react-router'
 
 
@@ -20,6 +21,7 @@ const App = () => {
              <Route  exact path="/Contact" component={Contact}/> 
              <Redirect to="/"/>
          </Switch>
+         <Footer/>
         </>
     )
 }

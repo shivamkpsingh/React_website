@@ -9,8 +9,9 @@
   background-color: #fff !important;
 }
 .navbar-brand{
-  font-size:  1.9rem !important;
+  /* font-size:  4rem !important; */
   color: #565387 !important;
+  font-weight: bold !important;
 }
 .navbar a{
   font-size: 1.3rem !important;
@@ -73,4 +74,8 @@
   100%{
     transform: translateY(-10px);
   }
+}
+
+textarea{
+  resize: none;
 }
